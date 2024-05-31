@@ -32,6 +32,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 1. [MIMIC-IV-ECHO](https://physionet.org/content/mimic-iv-echo/0.1/) - Echocardiogram data from the MIMIC-IV database.
 1. [AMR-UTI](https://physionet.org/content/antimicrobial-resistance-uti/1.0.0/) - Antimicrobial Resistance in Urinary Tract Infections dataset.
 1. [Abdominal and Direct Fetal ECG Database](https://physionet.org/content/adfecgdb/) - Multichannel fetal electrocardiogram recordings obtained from 5 different women in labor.
+1. [OpenPrescribing](https://openprescribing.net/) - A database of all medicines and appliances that are prescribed by GPs and other NHS prescribers in England.
 
 ## Imaging Data
 
@@ -69,6 +70,9 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 1. [RadGraph](https://physionet.org/content/radgraph/1.0.0/) - Radiology reports annotated with entities and relations.
 1. [RadNLI](https://physionet.org/content/radnli-report-inference/1.0.0/) - A natural language inference dataset for radiology reports.
 1. [RadQA](https://physionet.org/content/radqa/1.0.0/) - A question-answering dataset for radiology reports.
+1. [UK Biobank Brain Imaging](https://www.ukbiobank.ac.uk/enable-your-research/about-our-data/neuroimaging-data) - Detailed MRI scans of the brain, heart, abdomen, bones and carotid arteries of over 100,000 UK Biobank participants.
+1. [Allen Brain Atlas](https://portal.brain-map.org/) - A growing collection of online public resources integrating extensive gene expression and neuroanatomical data.
+1. [ADNI (Alzheimer's Disease Neuroimaging Initiative)](http://adni.loni.usc.edu/) - A longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease.
 
 ## Omics Data
 
@@ -85,6 +89,17 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 1. [Genome in a Bottle on AWS](https://registry.opendata.aws/giab/) - Reference genomes and benchmarking data for genome sequencing and assembly.
 1. [OpenCell on AWS](https://registry.opendata.aws/czb-opencell/) - 3D images and meshes of cells and organelles.
 1. [Refgenie reference genome assets](https://registry.opendata.aws/refgenie/) - A standardized, versioned, and programmatically accessible collection of reference genome assets.
+1. [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/) - A public repository that archives and freely distributes microarray, next-generation sequencing, and other forms of high-throughput functional genomics data.
+1. [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/) - A database of functional genomics experiments including gene expression, methylation, and protein data.
+1. [Protein Data Bank (PDB)](https://www.rcsb.org/) - A database of 3D structural data of large biological molecules, such as proteins and nucleic acids.
+1. [Human Protein Atlas](https://www.proteinatlas.org/) - A Swedish-based program that maps all the human proteins in cells, tissues, and organs using integration of various omics technologies.
+1. [cBioPortal](https://www.cbioportal.org/) - A web resource for exploring, visualizing, and analyzing multidimensional cancer genomics data.
+1. [Human Cell Atlas](https://www.humancellatlas.org/) - An international collaborative consortium, which aims to create comprehensive reference maps of all human cells to describe and define the cellular basis of health and disease.
+1. [Tox21](https://tripod.nih.gov/tox21/challenge/) - A database of compounds for toxicity testing to better understand how chemicals affect human health and the environment.
+1. [GDC (Genomic Data Commons)](https://portal.gdc.cancer.gov/) - A unified data repository that enables data sharing across cancer genomic studies in support of precision medicine.
+1. [CTRP (Cancer Therapeutics Response Portal)](https://portals.broadinstitute.org/ctrp.v2.1/) - A public database that links genetic, lineage, and other cellular features of cancer cell lines to small-molecule sensitivity.
+1. [UniProt](https://www.uniprot.org/) - A comprehensive resource for protein sequence and annotation data.
+1. [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena) - A comprehensive record of the world's nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation.
 
 ## Biomedical Knowledge Graphs
 
@@ -114,7 +129,6 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 1. [Online Mendelian Inheritance in Man](https://www.omim.org/) - A catalog of human genes and genetic disorders.
 1. [DisGeNET](https://www.disgenet.org/) - A discovery platform containing publicly available collections of genes and variants associated with human diseases.
 1. [PharmGKB](https://www.pharmgkb.org/) - A pharmacogenomics knowledge resource that encompasses clinical information including dosing guidelines and drug labels, potentially clinically actionable gene-drug associations, and genotype-phenotype relationships.
-
 
 ## Public Health Data
 
@@ -152,6 +166,12 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 1. [Pharmaceuticals and Medical Devices Agency Japan](https://www.pmda.go.jp/english/pnavi_e-05.html) - Japan's agency for pharmaceuticals and medical devices safety and effectiveness.
 1. [European Medicines Agency](https://www.ema.europa.eu/en/homepage) - EU agency for medicine safety and effectiveness.
 1. [PubChem](https://pubchem.ncbi.nlm.nih.gov/) - A database with information on the biological activities of small molecules.
+1. [SIDER](http://sideeffects.embl.de/) - A resource that contains information on marketed medicines and their recorded adverse drug reactions.
+1. [STITCH](http://stitch.embl.de/) - A database of known and predicted interactions between chemicals and proteins.
+1. [Reactome](https://reactome.org/) - A free, open-source, curated and peer-reviewed pathway database.
+1. [ChEMBL](https://www.ebi.ac.uk/chembl/) - A manually curated database of bioactive molecules with drug-like properties.
+1. [Human Metabolome Database](https://hmdb.ca/) - A freely available electronic database containing detailed information about small molecule metabolites found in the human body.
+1. [ZINC](https://zinc.docking.org/) - A free database of commercially-available compounds for virtual screening.
 
 ## License
 
