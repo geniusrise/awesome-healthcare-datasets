@@ -115,6 +115,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 1. [DisGeNET](https://www.disgenet.org/) - A discovery platform containing publicly available collections of genes and variants associated with human diseases.
 1. [PharmGKB](https://www.pharmgkb.org/) - A pharmacogenomics knowledge resource that encompasses clinical information including dosing guidelines and drug labels, potentially clinically actionable gene-drug associations, and genotype-phenotype relationships.
 
+
 ## Public Health Data
 
 1. [Global Health Observatory (GHO)](https://www.who.int/data/gho/) - World Health Organization's data repository for global health data, including data on various health topics and SDGs.
@@ -148,6 +149,9 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 1. [All of Us Research Program](https://www.researchallofus.org/) - An effort to gather data from one million or more people living in the United States to accelerate research and improve health.
 1. [UK Biobank](https://www.ukbiobank.ac.uk/) - A large-scale biomedical database and research resource containing in-depth genetic and health information from half a million UK participants.
 1. [Canadian Open Neuroscience Platform (CONP)](https://portal.conp.ca/) - A platform for sharing neuroscience data and tools.
+1. [Pharmaceuticals and Medical Devices Agency Japan](https://www.pmda.go.jp/english/pnavi_e-05.html) - Japan's agency for pharmaceuticals and medical devices safety and effectiveness.
+1. [European Medicines Agency](https://www.ema.europa.eu/en/homepage) - EU agency for medicine safety and effectiveness.
+1. [PubChem](https://pubchem.ncbi.nlm.nih.gov/) - A database with information on the biological activities of small molecules.
 
 ## License
 
