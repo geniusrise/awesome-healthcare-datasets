@@ -6,172 +6,340 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 
 ## Contents
 
-- [Awesome Healthcare Datasets](#awesome-healthcare-datasets)
-  - [Contents](#contents)
-  - [Clinical Data](#clinical-data)
-  - [Imaging Data](#imaging-data)
-  - [Omics Data](#omics-data)
-  - [Biomedical Knowledge Graphs](#biomedical-knowledge-graphs)
-  - [Public Health Data](#public-health-data)
-  - [Biomedical Literature](#biomedical-literature)
-  - [Miscellaneous](#miscellaneous)
-  - [License](#license)
+- [Clinical Data](#clinical-data)
+  - [General EHR/ICU Data](#general-ehricu-data)
+  - [Specific Conditions/Cohorts](#specific-conditionscohorts)
+  - [Clinical Notes/Text](#clinical-notestext)
+  - [Waveform Data](#waveform-data)
+  - [Prescription Data](#prescription-data)
+- [Imaging Data](#imaging-data)
+  - [Radiology (X-ray, CT, MRI)](#radiology-x-ray-ct-mri)
+  - [Ophthalmology](#ophthalmology)
+  - [Dermatology](#dermatology)
+  - [Pathology](#pathology)
+  - [Microscopy](#microscopy)
+  - [Dental](#dental)
+  - [Other Imaging Modalities](#other-imaging-modalities)
+- [Omics Data](#omics-data)
+  - [Genomics](#genomics)
+  - [Transcriptomics](#transcriptomics)
+  - [Proteomics](#proteomics)
+  - [Metabolomics](#metabolomics)
+  - [Multi-omics](#multi-omics)
+  - [Pharmacogenomics](#pharmacogenomics)
+- [Biomedical Knowledge Graphs and Ontologies](#biomedical-knowledge-graphs-and-ontologies)
+  - [General Medical Terminologies](#general-medical-terminologies)
+  - [Drug and Chemical Information](#drug-and-chemical-information)
+  - [Disease and Gene Information](#disease-and-gene-information)
+  - [Pathway and Interaction Databases](#pathway-and-interaction-databases)
+- [Public Health Data](#public-health-data)
+  - [Global Health](#global-health)
+  - [US-Specific Public Health](#us-specific-public-health)
+  - [Health Systems and Policy](#health-systems-and-policy)
+- [Biomedical Literature](#biomedical-literature)
+  - [Article Databases and Collections](#article-databases-and-collections)
+  - [Literature-Based Datasets](#literature-based-datasets)
+- [Wearable and Sensor Data](#wearable-and-sensor-data)
+- [Social Determinants of Health (SDOH)](#social-determinants-of-health-sdoh)
+- [Synthetic Data](#synthetic-data)
+- [Miscellaneous](#miscellaneous)
+- [Contribute](#contribute)
+- [License](#license)
 
 ## Clinical Data
 
-1. [MIMIC-III Clinical Database](https://physionet.org/content/mimiciii/1.4/) - Deidentified health data associated with ~40,000 critical care patients. Includes demographics, vital signs, laboratory tests, medications, and more.
-1. [eICU Collaborative Research Database](https://physionet.org/content/eicu-crd/2.0/) - A multi-center database comprising deidentified health data associated with over 200,000 admissions to ICUs across the United States between 2014-2015.
-1. [MIMIC-IV](https://physionet.org/content/mimiciv/2.2/) - An update to MIMIC-III, containing deidentified data associated with patients admitted to a tertiary academic medical center in Boston, MA, USA from 2008-2019.
-1. [AmsterdamUMCdb](https://amsterdammedicaldatascience.nl) - A database containing deidentified health data from the Amsterdam University Medical Center, including structured and unstructured data from patient records.
-1. [MIMIC-IV-ED](https://physionet.org/content/mimic-iv-ed/2.2/) - Emergency department data from the MIMIC-IV database.
-1. [MIMIC-IV-Note](https://physionet.org/content/mimic-iv-note/2.2/) - Deidentified free-text clinical notes from the MIMIC-IV database.
-1. [MIMIC-III Waveform Database](https://physionet.org/content/mimic3wdb/1.0/) - Waveform data from the MIMIC-III database.
-1. [MIMIC-IV Waveform Database](https://physionet.org/content/mimic4wdb/0.1.0/) - Waveform data from the MIMIC-IV database.
-1. [eICU Collaborative Research Database](https://physionet.org/content/eicu-crd/2.0/) - A multi-center database comprising deidentified health data associated with over 200,000 admissions to ICUs across the United States between 2014-2015.
-1. [MIMIC-II Clinical Database](https://physionet.org/content/mimic-ii/2.6.0/) - An older version of the MIMIC database, containing data from 2001 to 2008.
-1. [MIMIC-IV-ECHO](https://physionet.org/content/mimic-iv-echo/0.1/) - Echocardiogram data from the MIMIC-IV database.
-1. [AMR-UTI](https://physionet.org/content/antimicrobial-resistance-uti/1.0.0/) - Antimicrobial Resistance in Urinary Tract Infections dataset.
-1. [Abdominal and Direct Fetal ECG Database](https://physionet.org/content/adfecgdb/) - Multichannel fetal electrocardiogram recordings obtained from 5 different women in labor.
-1. [OpenPrescribing](https://openprescribing.net/) - A database of all medicines and appliances that are prescribed by GPs and other NHS prescribers in England.
+### General EHR/ICU Data
+
+1.  [MIMIC-III Clinical Database](https://physionet.org/content/mimiciii/1.4/) - Deidentified health data from ~40,000 critical care patients.  *Requires data use agreement and training.*
+2.  [MIMIC-IV](https://physionet.org/content/mimiciv/2.2/) - Updated MIMIC-III, 2008-2019. *Requires data use agreement and training.*
+3.  [eICU Collaborative Research Database](https://physionet.org/content/eicu-crd/2.0/) - Multi-center ICU data from across the US. *Requires data use agreement and training.*
+4.  [AmsterdamUMCdb](https://amsterdammedicaldatascience.nl) - Deidentified health data from Amsterdam University Medical Center.
+5.  [HiRID](https://physionet.org/content/hirid/1.1.1/) - High time-resolution ICU data from Bern University Hospital, Switzerland (Inselspital). *Requires Credentialed Access*.
+6.   [Medical Information Mart for Intensive Care (MIMIC) - IV Emergency Department (MIMIC-IV-ED)](https://physionet.org/content/mimic-iv-ed/2.2/)
+7.  [BH-CHPR, Beth Israel](https://github.com/BH-CHPR/Emergency-Department-Visit-Classification) -  Emergency department visit data with classification labels, focus on reducing ED utilization.
+
+### Specific Conditions/Cohorts
+
+1. [MIMIC-IV-ED](https://physionet.org/content/mimic-iv-ed/2.2/) - Emergency department data from MIMIC-IV. *Requires data use agreement and training.*
+2.  [AMR-UTI](https://physionet.org/content/antimicrobial-resistance-uti/1.0.0/) - Antimicrobial Resistance in Urinary Tract Infections.
+3.  [Abdominal and Direct Fetal ECG Database](https://physionet.org/content/adfecgdb/) - Multichannel fetal ECG recordings.
+4.  [The Pediatric Epilepsy Research Consortium (PERC) Data](https://www.pediatriced.org/) - Data from multicenter observational studies on children with epilepsy. (Contact PERC for access)
+5.  [Nationwide Emergency Department Sample (NEDS)](https://www.hcup-us.ahrq.gov/nedsoverview.jsp) - Large, publicly-available all-payer ED database (US). *Available for purchase.*
+6. [National Emergency Department Samples](https://www.hcup-us.ahrq.gov/db/nation/neds/nedsdbdocumentation.jsp) - The Healthcare Cost and Utilization Project.
+
+### Clinical Notes/Text
+
+1.  [MIMIC-IV-Note](https://physionet.org/content/mimic-iv-note/2.2/) - Deidentified clinical notes from MIMIC-IV.  *Requires data use agreement and training.*
+2.  [i2b2/n2c2 NLP Research Data Sets](https://www.i2b2.org/NLP/DataSets/) - Several datasets of deidentified clinical notes with annotations for various NLP tasks (e.g., de-identification, relation extraction). *Requires data use agreement.*
+3. [mtsamples](https://www.mtsamples.com/) - A large collection of transcribed medical sample reports.
+4.  [THYME corpus](https://github.com/thராஜ்/temporal_hindi) - clinical notes with temporal annotations. Contains colon cancer, brain tumor and epilepsy corpus.
+
+### Waveform Data
+
+1.  [MIMIC-III Waveform Database](https://physionet.org/content/mimic3wdb/1.0/) - Waveform data matched to MIMIC-III. *Requires data use agreement and training.*
+2.   [MIMIC-IV Waveform Database Matched Subset](https://physionet.org/content/mimic4wdb-matched/0.1.0/)
+3.  [MIMIC-IV-ECG](https://physionet.org/content/mimic-iv-ecg/1.0/) - Diagnostic ECG data from MIMIC-IV.
+4.   [PTB-XL: A large publicly available electrocardiography dataset](https://physionet.org/content/ptb-xl/1.0.3/)
+5. [PhysioNet](https://physionet.org/) - Contains numerous other waveform databases (ECG, EEG, etc.) beyond MIMIC.
+
+### Prescription Data
+1.  [OpenPrescribing](https://openprescribing.net/) - Prescribing data from GPs in England.
+2. [FDA Adverse Event Reporting System](https://www.fda.gov/drugs/surveillance/questions-and-answers-fdas-adverse-event-reporting-system-faers). Captures adverse drug reactions.
 
 ## Imaging Data
 
-1. [TCIA (The Cancer Imaging Archive)](https://www.cancerimagingarchive.net/) - A large archive of medical images of cancer accessible for public download.
-1. [Chest X-Ray Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) - A dataset consisting of 5,863 chest X-Ray images, annotated with the presence of pneumonia.
-1. [RSNA Intracranial Hemorrhage Detection](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection) - A dataset of head CT scans, annotated with intracranial hemorrhage labels.
-1. [MICCAI 2015 Challenge on Multimodal Brain Tumor Segmentation](https://academictorrents.com/details/c4f39a0a8e46e8d2174b8a8a81b9887150f44d50) - Brain tumor segmentation dataset.
-1. [Non-Small Cell Lung Cancer CT Scan Dataset](https://academictorrents.com/details/95b58ebfc1952780cfe2102dd7290889feefad66) - CT scans of non-small cell lung cancer patients.
-1. [PROSTATEx](https://academictorrents.com/details/5a447ff50062194bd58dd11c0fedead59e6d873c) - Prostate MRI scans with segmentations and annotations.
-1. [Labeled Optical Coherence Tomography](https://academictorrents.com/details/198145c88af9a1d61ba8070f5b05c3539896ff4e) - Retinal OCT images with layer segmentations and fluid labels.
-1. [MosMedData: Chest CT Scans with COVID-19 Related Findings](https://academictorrents.com/details/f2175c4676e041ea65568bb70c2bcd15c7325fd2) - Chest CT scans of COVID-19 patients.
-1. [LUng Nodule Analysis (LUNA16)](https://academictorrents.com/details/58b053204337ca75f7c2e699082baeb57aa08578) - Chest CT scans with annotated lung nodules.
-1. [NIH Chest X-ray Dataset of 14 Common Thorax Disease Categories](https://academictorrents.com/details/557481faacd824c83fbf57dcf7b6da9383b3235a) - Chest X-ray images with disease labels.
-1. [DeepLesion](https://academictorrents.com/details/de50f4d4aa3d028944647a56199c07f5fa6030ff) - A large-scale dataset of CT images with annotated lesions.
-1. [Medical Segmentation Decathlon Datasets](https://academictorrents.com/details/274be65156ed14828fb7b30b82407a2417e1924a) - Various medical imaging datasets for segmentation tasks.
-1. [cataracts-2018-train](https://academictorrents.com/details/d73aef93c45f583a6c7abf508e750da6b7636bff) - Cataract images dataset.
-1. [dHCP 2nd data release -- sourcedata](https://academictorrents.com/details/515e2989eedc853a8e256424de112f6f48f10d80) - Developmental Human Connectome Project dataset.
-1. [dHCP 2nd data release -- fMRI pipeline](https://academictorrents.com/details/7197ed06604fcc7791d321afc229efe7c24dc472) - Developmental Human Connectome Project dataset (fMRI pipeline).
-1. [PADCHEST_SJ](https://academictorrents.com/details/dec12db21d57e158f78621f06dcbe78248d14850) - Chest X-ray images with multiple labels in Spanish.
-1. [CAMELYON17 breast cancer](https://academictorrents.com/details/fedc1a6b331fb8d9e56001ebad8429621bbf2379) - Lymph node sections annotated with metastases.
-1. [A multimodal dental dataset facilitating machine learning research and clinic services](https://physionet.org/content/multimodal-dental-dataset/1.0.0/) - Dental X-rays, CBCT scans, and dental records.
-1. [MIMIC-IV-ECG](https://physionet.org/content/mimic-iv-ecg/1.0/) - Diagnostic electrocardiogram data from the MIMIC-IV database.
-1. [MURA (musculoskeletal radiographs)](https://stanfordmlgroup.github.io/competitions/mura/) - Bone X-rays labeled for abnormalities.
-1. [National COVID-19 Chest Image Database (NCCID)](https://nhsx.github.io/covid-chest-imaging-database/) - Chest X-rays, CT scans, and MRIs of COVID-19 patients in the UK.
-1. [Cell Painting Gallery](https://registry.opendata.aws/cellpainting-gallery/) - A collection of cell images for drug discovery and basic research.
-1. [International Neuroimaging Data-Sharing Initiative (INDI)](https://registry.opendata.aws/fcp-indi/) - Neuroimaging datasets from various sources.
-1. [Cancer Imaging Archive](https://www.cancerimagingarchive.net/) - A large archive of cancer imaging data.
-1. [Open Access Series of Imaging Studies (OASIS)](https://www.oasis-brains.org/) - MRI data in young, middle-aged, and elderly adults.
-1. [Allen Cell Imaging Collections](https://registry.opendata.aws/allen-cell-imaging-collections/) - 3D cell imaging data for basic research and computational tool development.
-1. [BossDB Open Neuroimagery Datasets](https://registry.opendata.aws/bossdb/) - Various neuroimaging datasets.
-1. [Clinical Proteomic Tumor Analysis Consortium 3 (CPTAC-3)](https://registry.opendata.aws/cptac-3/) - Proteomic data from cancer samples.
-1. [IBL Neuropixels Reproducible Ephys Data on AWS](https://registry.opendata.aws/ibl-reproducible-ephys/) - Electrophysiological recordings from the International Brain Laboratory.
-1. [NYU Langone & FAIR FastMRI Dataset](https://registry.opendata.aws/nyu-fastmri/) - Knee MRIs for accelerated MRI reconstruction research.
-1. [The Human Connectome Project](https://registry.opendata.aws/hcp-openaccess/) - A collection of neuroimaging and behavioral data.
-1. [RadGraph](https://physionet.org/content/radgraph/1.0.0/) - Radiology reports annotated with entities and relations.
-1. [RadNLI](https://physionet.org/content/radnli-report-inference/1.0.0/) - A natural language inference dataset for radiology reports.
-1. [RadQA](https://physionet.org/content/radqa/1.0.0/) - A question-answering dataset for radiology reports.
-1. [UK Biobank Brain Imaging](https://www.ukbiobank.ac.uk/enable-your-research/about-our-data/neuroimaging-data) - Detailed MRI scans of the brain, heart, abdomen, bones and carotid arteries of over 100,000 UK Biobank participants.
-1. [Allen Brain Atlas](https://portal.brain-map.org/) - A growing collection of online public resources integrating extensive gene expression and neuroanatomical data.
-1. [ADNI (Alzheimer's Disease Neuroimaging Initiative)](http://adni.loni.usc.edu/) - A longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease.
+### Radiology (X-ray, CT, MRI)
+
+1.  [TCIA (The Cancer Imaging Archive)](https://www.cancerimagingarchive.net/) - Excellent resource for cancer imaging.
+2.  [Chest X-Ray Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) - Pneumonia detection.
+3.  [RSNA Intracranial Hemorrhage Detection](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection) - Head CT scans with hemorrhage labels.
+4.  [MICCAI 2015 Challenge on Multimodal Brain Tumor Segmentation](https://academictorrents.com/details/c4f39a0a8e46e8d2174b8a8a81b9887150f44d50) - Brain tumor segmentation.
+5.  [Non-Small Cell Lung Cancer CT Scan Dataset](https://academictorrents.com/details/95b58ebfc1952780cfe2102dd7290889feefad66)
+6.  [PROSTATEx](https://academictorrents.com/details/5a447ff50062194bd58dd11c0fedead59e6d873c) - Prostate MRI.
+7.  [MosMedData: Chest CT Scans with COVID-19 Related Findings](https://academictorrents.com/details/f2175c4676e041ea65568bb70c2bcd15c7325fd2)
+8.  [LUng Nodule Analysis (LUNA16)](https://academictorrents.com/details/58b053204337ca75f7c2e699082baeb57aa08578) - Lung nodules.
+9.  [NIH Chest X-ray Dataset of 14 Common Thorax Disease Categories](https://academictorrents.com/details/557481faacd824c83fbf57dcf7b6da9383b3235a)
+10. [DeepLesion](https://academictorrents.com/details/de50f4d4aa3d028944647a56199c07f5fa6030ff) - CT images with lesions.
+11. [Medical Segmentation Decathlon Datasets](https://academictorrents.com/details/274be65156ed14828fb7b30b82407a2417e1924a)
+12. [dHCP 2nd data release -- sourcedata](https://academictorrents.com/details/515e2989eedc853a8e256424de112f6f48f10d80) - Developmental Human Connectome Project.
+13. [dHCP 2nd data release -- fMRI pipeline](https://academictorrents.com/details/7197ed06604fcc7791d321afc229efe7c24dc472)
+14. [PADCHEST_SJ](https://academictorrents.com/details/dec12db21d57e158f78621f06dcbe78248d14850) - Chest X-rays (Spanish labels).
+15. [MURA (musculoskeletal radiographs)](https://stanfordmlgroup.github.io/competitions/mura/) - Stanford bone X-rays.
+16. [National COVID-19 Chest Image Database (NCCID)](https://nhsx.github.io/covid-chest-imaging-database/) - UK COVID-19 imaging.
+17. [International Neuroimaging Data-Sharing Initiative (INDI)](https://registry.opendata.aws/fcp-indi/)
+18. [Open Access Series of Imaging Studies (OASIS)](https://www.oasis-brains.org/) - Brain MRI.
+19. [BossDB Open Neuroimagery Datasets](https://registry.opendata.aws/bossdb/)
+20. [NYU Langone & FAIR FastMRI Dataset](https://registry.opendata.aws/nyu-fastmri/) - Knee MRIs.
+21. [The Human Connectome Project](https://registry.opendata.aws/hcp-openaccess/)
+22. [RadGraph](https://physionet.org/content/radgraph/1.0.0/) - Radiology report entities/relations.
+23. [RadNLI](https://physionet.org/content/radnli-report-inference/1.0.0/) - Radiology report inference.
+24. [RadQA](https://physionet.org/content/radqa/1.0.0/) - Radiology report QA.
+25. [UK Biobank Brain Imaging](https://www.ukbiobank.ac.uk/enable-your-research/about-our-data/neuroimaging-data) - *Requires application and approval.*
+26. [ADNI (Alzheimer's Disease Neuroimaging Initiative)](http://adni.loni.usc.edu/) - *Requires application and approval.*
+27. [The Cancer Genome Atlas (TCGA) Clinical Data Resource imaging data ](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70226904). TCIA contains imaging data associated with subjects from TCGA.
+
+
+### Ophthalmology
+
+1.  [Labeled Optical Coherence Tomography](https://academictorrents.com/details/198145c88af9a1d61ba8070f5b05c3539896ff4e) - Retinal OCT.
+2.  [e_ophtha](https://www.adcis.net/en/third-party/e-ophtha/) - A database of retinal images used for the detection of diabetic retinopathy.
+3.  [DIARETDB0 and DIARETDB1](https://www.it.lut.fi/project/imageret/diaretdb1/) - Diabetic retinopathy databases and evaluation protocols.
+4. [MESSIDOR and Base de Datos Oftalmologica de la Region de Murcia (BDOR-Murcia)](https://www.adcis.net/en/third-party/messidor/) - Datasets for computer-aided diagnosis of diabetic retinopathy.
+5. [STARE (Structured Analysis of the Retina)](https://cecas.clemson.edu/~ahoover/stare/) - Retinal images with vessel segmentations and disease labels.
+6.  [DRIVE: Digital Retinal Images for Vessel Extraction](https://www.isi.uu.nl/Research/Databases/DRIVE/) - Retinal images for vessel segmentation.
+7.  [RFMiD](https://www.kaggle.com/datasets/andrewmvd/retinal-fundus-multi-disease-dataset) - Retinal Fundus Multi-disease Image Dataset.
+8. [A-Fundus](https://data.mendeley.com/datasets/nk9r-fdrbp/1)- pediatric fundus images.
+
+### Dermatology
+1.  [ISIC Archive (International Skin Imaging Collaboration)](https://www.isic-archive.com/) - A large collection of dermoscopic images of skin lesions.
+2.  [HAM10000 dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) - "Human Against Machine with 10000 training images" - dermoscopic images.
+3.  [DermNet NZ](https://dermnetnz.org/image-library/) - While primarily a resource for information, DermNet NZ has a vast image library, though it is primarily for educational use and may have copyright restrictions.
+4.  [PAD-UFES-20](https://data.mendeley.com/datasets/zr7vgbcyr2/1) - Skin lesion images with clinical data.
+
+### Pathology
+
+1.  [CAMELYON17 breast cancer](https://academictorrents.com/details/fedc1a6b331fb8d9e56001ebad8429621bbf2379) - Lymph node metastasis.
+2.  [PatchCamelyon (PCam)](https://github.com/basveeling/pcam) - A benchmark dataset for machine learning, derived from Camelyon16.
+3.   [Computational Precision Medicine](https://github.com/labsyspharm/cpm-pathology) - Giga-pixel pathology images from the University of Pittsburg.
+4.  [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/tcga) - Includes histopathology images alongside genomic data. *Requires data use agreement and, for some data, IRB approval.*
+5. [PANDA challenge](https://www.kaggle.com/c/prostate-cancer-grade-assessment/data) - Prostate cancer grade assessment.
+
+### Microscopy
+
+1.  [Cell Painting Gallery](https://registry.opendata.aws/cellpainting-gallery/) - Drug discovery.
+2.  [Allen Cell Imaging Collections](https://registry.opendata.aws/allen-cell-imaging-collections/) - 3D cell imaging.
+3. [BBBC (Broad Bioimage Benchmark Collection)](https://bbbc.broadinstitute.org/) - A collection of freely available, high-quality, biological image datasets.
+
+### Dental
+
+1.  [A multimodal dental dataset facilitating machine learning research and clinic services](https://physionet.org/content/multimodal-dental-dataset/1.0.0/)
+
+### Other Imaging Modalities
+
+1.  [MIMIC-IV-ECHO](https://physionet.org/content/mimic-iv-echo/0.1/) - Echocardiogram data from MIMIC-IV.
+2. [EchoNet-Dynamic](https://echonet.github.io/dynamic/) - Echocardiogram videos with ejection fraction measurements
 
 ## Omics Data
 
-1. [TCGA (The Cancer Genome Atlas)](https://www.cancer.gov/ccg/research/genome-sequencing/tcga) - A landmark cancer genomics program that molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types.
-1. [GTEx (Genotype-Tissue Expression)](https://gtexportal.org/home/) - A resource to study tissue-specific gene expression and regulation, with data from 54 non-diseased tissue sites across nearly 1000 individuals.
-1. [1000 Genomes Project](https://www.internationalgenome.org/data/) - A catalog of human genetic variation, including SNPs and structural variants, based on the genomes of 2,504 individuals from 26 populations.
-1. [Cancer Cell Line Encyclopedia (CCLE)](https://registry.opendata.aws/ccle/) - Detailed genetic and pharmacologic characterization of a large panel of human cancer cell lines.
-1. [Genome Aggregation Database](https://registry.opendata.aws/broad-gnomad/) - Aggregated and harmonized sequence data from large-scale sequencing projects.
-1. [Open Bioinformatics Reference Data for Galaxy](https://registry.opendata.aws/open-bio-ref-data/) - Bioinformatics reference data for the Galaxy platform.
-1. [CoMMpass from the Multiple Myeloma Research Foundation](https://registry.opendata.aws/mmrf-commpass/) - Genomic and clinical data from multiple myeloma patients.
-1. [NIH NCBI Sequence Read Archive (SRA) on AWS](https://registry.opendata.aws/ncbi-sra/) - Next-generation sequencing data from various studies.
-1. [Basic Local Alignment Sequences Tool (BLAST) Databases](https://registry.opendata.aws/ncbi-blast-databases/) - Sequence databases for use with the BLAST tool.
-1. [Encyclopedia of DNA Elements (ENCODE)](https://registry.opendata.aws/encode-project/) - Data from the ENCODE project, which aims to identify all functional elements in the human genome.
-1. [Genome in a Bottle on AWS](https://registry.opendata.aws/giab/) - Reference genomes and benchmarking data for genome sequencing and assembly.
-1. [OpenCell on AWS](https://registry.opendata.aws/czb-opencell/) - 3D images and meshes of cells and organelles.
-1. [Refgenie reference genome assets](https://registry.opendata.aws/refgenie/) - A standardized, versioned, and programmatically accessible collection of reference genome assets.
-1. [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/) - A public repository that archives and freely distributes microarray, next-generation sequencing, and other forms of high-throughput functional genomics data.
-1. [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/) - A database of functional genomics experiments including gene expression, methylation, and protein data.
-1. [Protein Data Bank (PDB)](https://www.rcsb.org/) - A database of 3D structural data of large biological molecules, such as proteins and nucleic acids.
-1. [Human Protein Atlas](https://www.proteinatlas.org/) - A Swedish-based program that maps all the human proteins in cells, tissues, and organs using integration of various omics technologies.
-1. [cBioPortal](https://www.cbioportal.org/) - A web resource for exploring, visualizing, and analyzing multidimensional cancer genomics data.
-1. [Human Cell Atlas](https://www.humancellatlas.org/) - An international collaborative consortium, which aims to create comprehensive reference maps of all human cells to describe and define the cellular basis of health and disease.
-1. [Tox21](https://tripod.nih.gov/tox21/challenge/) - A database of compounds for toxicity testing to better understand how chemicals affect human health and the environment.
-1. [GDC (Genomic Data Commons)](https://portal.gdc.cancer.gov/) - A unified data repository that enables data sharing across cancer genomic studies in support of precision medicine.
-1. [CTRP (Cancer Therapeutics Response Portal)](https://portals.broadinstitute.org/ctrp.v2.1/) - A public database that links genetic, lineage, and other cellular features of cancer cell lines to small-molecule sensitivity.
-1. [UniProt](https://www.uniprot.org/) - A comprehensive resource for protein sequence and annotation data.
-1. [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena) - A comprehensive record of the world's nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation.
+### Genomics
 
-## Biomedical Knowledge Graphs
+1.  [TCGA (The Cancer Genome Atlas)](https://www.cancer.gov/ccg/research/genome-sequencing/tcga) - *Requires data use agreement.*
+2.  [1000 Genomes Project](https://www.internationalgenome.org/data/)
+3.  [Genome Aggregation Database](https://registry.opendata.aws/broad-gnomad/)
+4.  [Genome in a Bottle on AWS](https://registry.opendata.aws/giab/) - Reference genomes.
+5.  [GDC (Genomic Data Commons)](https://portal.gdc.cancer.gov/) - *Requires data use agreement.*
+6. [UK Biobank](https://www.ukbiobank.ac.uk/) *Requires extensive application process*.
 
-1. [UMLS (Unified Medical Language System)](https://www.nlm.nih.gov/research/umls/index.html) - A compendium of many controlled vocabularies in the biomedical sciences, providing a mapping structure among these vocabularies.
-1. [SNOMED CT](https://www.snomed.org/) - A comprehensive, multilingual clinical healthcare terminology for clinical documentation and reporting.
-1. [RxNorm](https://www.nlm.nih.gov/research/umls/rxnorm/) - A normalized naming system for generic and branded drugs.
-1. [LOINC (Logical Observation Identifiers Names and Codes)](https://loinc.org/) - A database and universal standard for identifying medical laboratory observations.
-1. [MeSH (Medical Subject Headings)](https://www.ncbi.nlm.nih.gov/mesh) - A controlled vocabulary thesaurus used for indexing articles in PubMed.
-1. [DrugBank](https://go.drugbank.com/) - A comprehensive, freely accessible, online database containing information on drugs and drug targets.
-1. [Orphanet Rare Disease Ontology](https://www.orpha.net/consor/cgi-bin/index.php) - A vocabulary for rare diseases, capturing relationships between diseases, genes, and other relevant features.
-1. [GWAS Catalog](https://www.ebi.ac.uk/gwas/) - A catalog of published genome-wide association studies (GWAS) and their findings.
-1. [ICD-10 (International Classification of Diseases, 10th Revision)](https://www.cdc.gov/nchs/icd/icd10cm.htm) - A medical classification list by the World Health Organization (WHO).
-1. [ICD-9 (International Classification of Diseases, 9th Revision)](https://www.cdc.gov/nchs/icd/icd9cm.htm) - An older version of the ICD medical classification list.
-1. [CPT (Current Procedural Terminology)](https://www.ama-assn.org/amaone/cpt-current-procedural-terminology) - A medical code set maintained by the American Medical Association (AMA).
-1. [Gene Ontology](http://geneontology.org/) - A bioinformatics resource that provides information about gene product function using ontologies.
-1. [Disease Ontology](http://disease-ontology.org/) - An ontology that provides a standardized description of human disease terms, phenotype characteristics, and related medical vocabulary.
-1. [RxMix](https://mor.nlm.nih.gov/RxMix/) - A database of prescription drugs and their ingredients.
-1. [RxTerms](https://lhncbc.nlm.nih.gov/MOR/RxTerms/) - A drug interface terminology based on RxNorm.
-1. [Dailymed](https://dailymed.nlm.nih.gov/dailymed/app-support-mapping-files.cfm) - A database of marketed drugs and their labels.
-1. [Experimental Factor Ontology](https://www.ebi.ac.uk/efo/) - An ontology for describing experimental variables in biomedical experiments.
-1. [UBERON anatomy](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-1-r5) - A cross-species anatomy ontology.
-1. [Open-targets](https://ftp.ebi.ac.uk/pub/databases/opentargets/platform/latest/output/etl/parquet/) - A platform for accessing and analyzing drug target data.
-1. [Genetic and Rare Diseases](https://rarediseases.info.nih.gov/) - Information on rare diseases and their associated genes.
-1. [International Classification of Diseases for Oncology](https://www.who.int/standards/classifications/other-classifications/international-classification-of-diseases-for-oncology) - A domain-specific extension of the International Classification of Diseases for tumor diseases.
-1. [Kyoto Encyclopedia of Genes and Genomes](https://www.genome.jp/kegg/) - A resource for understanding high-level functions and utilities of the biological system.
-1. [Medical Dictionary for Regulatory Activities Terminology](https://www.meddra.org/) - A standardised medical terminology for regulatory communication.
-1. [Online Mendelian Inheritance in Man](https://www.omim.org/) - A catalog of human genes and genetic disorders.
-1. [DisGeNET](https://www.disgenet.org/) - A discovery platform containing publicly available collections of genes and variants associated with human diseases.
-1. [PharmGKB](https://www.pharmgkb.org/) - A pharmacogenomics knowledge resource that encompasses clinical information including dosing guidelines and drug labels, potentially clinically actionable gene-drug associations, and genotype-phenotype relationships.
+### Transcriptomics
+
+1.  [GTEx (Genotype-Tissue Expression)](https://gtexportal.org/home/)
+2.  [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/)
+3.  [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/)
+4.  [Expression Atlas](https://www.ebi.ac.uk/gxa/home) - A curated resource that provides information on gene expression across species and biological conditions.
+
+### Proteomics
+
+1. [Clinical Proteomic Tumor Analysis Consortium 3 (CPTAC-3)](https://registry.opendata.aws/cptac-3/)
+2.  [Protein Data Bank (PDB)](https://www.rcsb.org/) - Protein structures.
+3.  [Human Protein Atlas](https://www.proteinatlas.org/)
+4.  [UniProt](https://www.uniprot.org/) - Protein sequences and annotations.
+5.  MassIVE (https://massive.ucsd.edu/) and ProteomeXchange (http://www.proteomexchange.org/) - Repositories for mass spectrometry proteomics data.
+
+### Metabolomics
+
+1.  [Human Metabolome Database](https://hmdb.ca/)
+2.  [Metabolomics Workbench](https://www.metabolomicsworkbench.org/) - A public repository for metabolomics data and metadata.
+
+### Multi-omics
+1. [cBioPortal](https://www.cbioportal.org/) - Cancer genomics.
+2.  [LinkedOmics](http://www.linkedomics.org/)- A web portal that integrated TCGA data with CPTAC proteomic data.
+3. [PRECOG](https://precog.stanford.edu/) - PREdiction of Clinical Outcomes from Genomic profiles
+
+### Pharmacogenomics
+
+1.  [Cancer Cell Line Encyclopedia (CCLE)](https://registry.opendata.aws/ccle/)
+2.  [CoMMpass from the Multiple Myeloma Research Foundation](https://registry.opendata.aws/mmrf-commpass/)
+3.  [NIH NCBI Sequence Read Archive (SRA) on AWS](https://registry.opendata.aws/ncbi-sra/)
+4.  [Basic Local Alignment Sequences Tool (BLAST) Databases](https://registry.opendata.aws/ncbi-blast-databases/)
+5.  [Encyclopedia of DNA Elements (ENCODE)](https://registry.opendata.aws/encode-project/)
+6.  [Tox21](https://tripod.nih.gov/tox21/challenge/)
+7.  [CTRP (Cancer Therapeutics Response Portal)](https://portals.broadinstitute.org/ctrp.v2.1/)
+8. [PharmGKB](https://www.pharmgkb.org/)
+9. [GDSC (Genomics of Drug Sensitivity in Cancer)](https://www.cancerrxgene.org/) - A large-scale database of drug sensitivity in cancer cell lines.
+
+## Biomedical Knowledge Graphs and Ontologies
+
+### General Medical Terminologies
+
+1.  [UMLS (Unified Medical Language System)](https://www.nlm.nih.gov/research/umls/index.html)
+2.  [SNOMED CT](https://www.snomed.org/) - *Requires a license, free in some countries.*
+3.  [LOINC (Logical Observation Identifiers Names and Codes)](https://loinc.org/)
+4.  [MeSH (Medical Subject Headings)](https://www.ncbi.nlm.nih.gov/mesh)
+5.  [ICD-10 (International Classification of Diseases, 10th Revision)](https://www.cdc.gov/nchs/icd/icd10cm.htm)
+6.  [ICD-9 (International Classification of Diseases, 9th Revision)](https://www.cdc.gov/nchs/icd/icd9cm.htm)
+7.  [CPT (Current Procedural Terminology)](https://www.ama-assn.org/amaone/cpt-current-procedural-terminology) - *Requires a license.*
+8.  [Medical Dictionary for Regulatory Activities Terminology](https://www.meddra.org/) *Requires a license.*
+9.  [International Classification of Diseases for Oncology](https://www.who.int/standards/classifications/other-classifications/international-classification-of-diseases-for-oncology)
+
+### Drug and Chemical Information
+
+1.  [RxNorm](https://www.nlm.nih.gov/research/umls/rxnorm/)
+2.  [DrugBank](https://go.drugbank.com/)
+3.  [RxMix](https://mor.nlm.nih.gov/RxMix/)
+4.  [RxTerms](https://lhncbc.nlm.nih.gov/MOR/RxTerms/)
+5.  [Dailymed](https://dailymed.nlm.nih.gov/dailymed/app-support-mapping-files.cfm)
+6. [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
+7. [ChEMBL](https://www.ebi.ac.uk/chembl/)
+8.  [SIDER](http://sideeffects.embl.de/) - Drug side effects.
+9.  [STITCH](http://stitch.embl.de/) - Chemical-protein interactions.
+10. [ZINC](https://zinc.docking.org/) - Compounds for virtual screening.
+
+### Disease and Gene Information
+
+1.  [Orphanet Rare Disease Ontology](https://www.orpha.net/consor/cgi-bin/index.php)
+2.  [GWAS Catalog](https://www.ebi.ac.uk/gwas/)
+3.  [Gene Ontology](http://geneontology.org/)
+4.  [Disease Ontology](http://disease-ontology.org/)
+5.  [Genetic and Rare Diseases](https://rarediseases.info.nih.gov/)
+6.  [Online Mendelian Inheritance in Man](https://www.omim.org/)
+7.  [DisGeNET](https://www.disgenet.org/)
+8. [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/) - A public archive of reports of the relationships among human variations and phenotypes.
+9. [HGNC (HUGO Gene Nomenclature Committee)](https://www.genenames.org/) - Provides approved human gene nomenclature.
+
+### Pathway and Interaction Databases
+
+1. [Reactome](https://reactome.org/)
+2. [EXPERIMENTAL FACTOR ONTOLOGY](https://www.ebi.ac.uk/efo/).
+3. [UBERON anatomy](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-1-r5).
+4. [Kyoto Encyclopedia of Genes and Genomes](https://www.genome.jp/kegg/)
+5.  [Open-targets](https://ftp.ebi.ac.uk/pub/databases/opentargets/platform/latest/output/etl/parquet/)
+6. [STRING](https://string-db.org/) - A database of known and predicted protein-protein interactions.
+7. [BioGRID](https://thebiogrid.org/) - A database of protein and genetic interactions.
+8.  [IntAct](https://www.ebi.ac.uk/intact/) - A molecular interaction database.
 
 ## Public Health Data
 
-1. [Global Health Observatory (GHO)](https://www.who.int/data/gho/) - World Health Organization's data repository for global health data, including data on various health topics and SDGs.
-1. [CDC WONDER](https://wonder.cdc.gov/) - Wide-ranging Online Data for Epidemiologic Research from the Centers for Disease Control and Prevention (CDC).
-1. [Medicare.gov Data](https://data.medicare.gov/) - Official U.S. government site for Medicare data, including data on hospitals, nursing homes, physicians, and more.
-1. [World Bank Health Data](https://data.worldbank.org/topic/health) - A collection of World Bank datasets on various health indicators and related data.
-1. [Global Burden of Disease (GBD)](http://www.healthdata.org/gbd) - A comprehensive regional and global assessment of mortality and disability from major diseases, injuries, and risk factors.
-1. [UNICEF Data](https://data.unicef.org/) - Global data on the situation of children worldwide.
-1. [OECD Health Statistics](https://www.oecd.org/els/health-systems/health-data.htm) - Comprehensive source of comparable statistics on health and health systems across OECD countries.
-1. [Humanitarian Data Exchange](https://data.humdata.org/) - An open platform for sharing data across crises and organisations.
+### Global Health
+
+1.  [Global Health Observatory (GHO)](https://www.who.int/data/gho/)
+2.  [World Bank Health Data](https://data.worldbank.org/topic/health)
+3.  [Global Burden of Disease (GBD)](http://www.healthdata.org/gbd)
+4.  [UNICEF Data](https://data.unicef.org/)
+5.  [OECD Health Statistics](https://www.oecd.org/els/health-systems/health-data.htm)
+6.  [Humanitarian Data Exchange](https://data.humdata.org/)
+7.   [Institute for Health Metrics and Evaluation](http://www.healthdata.org/) - provides access to many more datasets related to global health.
+
+### US-Specific Public Health
+
+1.  [CDC WONDER](https://wonder.cdc.gov/)
+2.  [Medicare.gov Data](https://data.medicare.gov/)
+3.  [HealthData.gov](https://healthdata.gov/)
+4.  [Medicare Provider Utilization and Payment Data](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data)
+5.  [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm)
+6. [SEER (Surveillance, Epidemiology, and End Results Program)](https://seer.cancer.gov/) - Cancer statistics. *Requires data use agreement.*
+7. [Behavioral Risk Factor Surveillance System (BRFSS)](https://www.cdc.gov/brfss/index.html) - Health-related telephone surveys.
+8. [Youth Risk Behavior Surveillance System (YRBSS)](https://www.cdc.gov/healthyyouth/data/yrbs/index.htm) - Monitors health-risk behaviors among youth.
+
+### Health Systems and Policy
+1.  [All of Us Research Program](https://www.researchallofus.org/)
+2.  [Canadian Open Neuroscience Platform (CONP)](https://portal.conp.ca/)
+3. [Pharmaceuticals and Medical Devices Agency Japan](https://www.pmda.go.jp/english/pnavi_e-05.html).
+4. [European Medicines Agency](https://www.ema.europa.eu/en/homepage).
+5. [Kaiser Permanente Research Bank](https://researchbank.kaiserpermanente.org/) - Data from Kaiser Permanente, a large integrated healthcare delivery system (requires application and proposal).
+6. [Truven Health MarketScan Databases](https://www.ibm.com/products/marketscan-research-databases) - Commercial claims and EMR data. (Requires purchase.)
+7.  [Optum Clinformatics Data Mart](https://www.optum.com/business/life-sciences/real-world-data.html) - Commercial claims and EMR data. (Requires purchase, academic subscriptions available).
+8. [National Inpatient Sample (NIS)](https://www.hcup-us.ahrq.gov/nisoverview.jsp) - Largest all-payer inpatient care database in the US. (Available for purchase.)
+9. [National Ambulatory Medical Care Survey (NAMCS) and National Hospital Ambulatory Medical Care Survey (NHAMCS)](https://www.cdc.gov/nchs/ahcd/index.htm)- Provides data on ambulatory care visits.
 
 ## Biomedical Literature
 
-1. [PubMed Central Open Access Subset](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/) - A subset of PubMed Central that contains full-text open access articles.
-1. [CORD-19](https://allenai.org/data/cord-19) - A dataset of scholarly articles about COVID-19, SARS-CoV-2, and related coronaviruses.
-1. [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) - A curated literature hub for tracking up-to-date scientific information about COVID-19.
-1. [PubMed](https://pubmed.ncbi.nlm.nih.gov/) - A database of more than 33 million citations for biomedical literature from MEDLINE, life science journals, and online books.
-1. [Europe PMC](https://europepmc.org/) - An open science platform that enables access to a worldwide collection of life science publications and preprints from trusted sources.
-1. [Microsoft Academic Graph](https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/) - A heterogeneous graph containing scientific publication records, citation relationships between those publications, as well as authors, institutions, journals, conferences, and fields of study.
-1. [Semantic Scholar Open Research Corpus](https://allenai.org/data/s2orc) - A large corpus of scientific papers with rich metadata, paper abstracts, resolved bibliographic references, and structured full text.
+### Article Databases and Collections
+
+1.  [PubMed Central Open Access Subset](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/)
+2.  [CORD-19](https://allenai.org/data/cord-19) - COVID-19 papers.
+3.  [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) - COVID-19 literature.
+4.  [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
+5.  [Europe PMC](https://europepmc.org/)
+6.  [Microsoft Academic Graph](https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/)
+7.   [Semantic Scholar Open Research Corpus](https://allenai.org/data/s2orc)
+
+### Literature-Based Datasets
+1. [BioASQ](http://bioasq.org/) - Biomedical semantic indexing and question answering challenges.
+2.  [ChemProt](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-vi/track-5/) - Chemical-protein interactions extracted from literature.
+3.  [DDI (Drug-Drug Interaction) Extraction](https://labh-curran.ucd.ie/datasets/index.php) - Drug-drug interaction extraction from biomedical texts.
+
+## Wearable and Sensor Data
+
+1.  [PhysioNet](https://physionet.org/) - (See also Waveform Data) Contains numerous datasets from wearable sensors.
+2.  [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) - Contains several smaller datasets related to wearable sensor data, activity recognition, etc.
+3. [The BIDMC PPG and respiration dataset](https://physionet.org/content/bidmc/1.0.0/) - Photoplethysmogram (PPG), respiration, and other physiological signals.
+4. [VitalDB](https://vitaldb.net/) - Vital signs data collected during surgeries
+5. [mHealth Dataset](https://archive.ics.uci.edu/dataset/319/mhealth+dataset) - Body motion and vital signs data.
+6.  [Opportunity Dataset](https://archive.ics.uci.edu/ml/datasets/opportunity+activity+recognition) - Daily living activity recognition data.
+
+## Social Determinants of Health (SDOH)
+
+1.   [American Community Survey (ACS)](https://www.census.gov/programs-surveys/acs) - Provides detailed demographic, socioeconomic, and housing data at various geographic levels.
+2.   [Area Health Resources Files (AHRF)](https://data.hrsa.gov/topics/health-workforce/ahrf) - County-level data on healthcare resources, demographics, and social determinants.
+3.    [County Health Rankings & Roadmaps](https://www.countyhealthrankings.org/) - Provides rankings and data on various health factors and outcomes at the county level.
+4.    [USDA Food Environment Atlas](https://www.ers.usda.gov/data-products/food-environment-atlas/) - Data on food access, food prices, and local food systems.
+5.   [Robert Wood Johnson Foundation (RWJF) Data Hub](https://www.rwjf.org/en/data-hub.html) - Curated datasets related to health equity and social determinants.
+
+## Synthetic Data
+1. [Synpuf](https://www.cms.gov/research-statistics-data-and-systems/downloadable-public-use-files/synpufs) - Medicare synthetic data.
+2.  [Synthea](https://synthetichealth.github.io/synthea/) - A synthetic patient generator that models the medical history of US patients.
+3. [MedGAN](https://github.com/usc-Melady/MedGAN) - Generating Multi-label Discrete Patient Records using Generative Adversarial Networks.
+4. [CorGAN](https://arxiv.org/abs/1903.02629) - Correlation-Capturing Convolutional Generative Adversarial Networks for Generating Synthetic Healthcare Time-Series Data.
 
 ## Miscellaneous
 
-1. [PhysioNet](https://physionet.org/) - A large and growing archive of physiological data, including datasets on ECG, EEG, and more.
-1. [HealthData.gov](https://healthdata.gov/) - Dedicated to making high value health data more accessible to entrepreneurs, researchers, and policy makers in the hopes of better health outcomes for all.
-1. [Human Mortality Database](https://www.mortality.org/) - Provides detailed mortality and population data to those interested in the history of human longevity.
-1. [Global Health Observatory (GHO) Data Repository](https://apps.who.int/gho/data/node.home) - WHO's gateway to health-related statistics for more than 1000 indicators for its 194 Member States.
-1. [Medicare Provider Utilization and Payment Data](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data) - Data on services and procedures provided to Medicare beneficiaries.
-1. [OpenNeuro](https://openneuro.org/) - A free and open platform for sharing MRI, MEG, EEG, iEEG, and ECoG data.
-1. [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm) - A program of studies designed to assess the health and nutritional status of adults and children in the United States.
-1. [All of Us Research Program](https://www.researchallofus.org/) - An effort to gather data from one million or more people living in the United States to accelerate research and improve health.
-1. [UK Biobank](https://www.ukbiobank.ac.uk/) - A large-scale biomedical database and research resource containing in-depth genetic and health information from half a million UK participants.
-1. [Canadian Open Neuroscience Platform (CONP)](https://portal.conp.ca/) - A platform for sharing neuroscience data and tools.
-1. [Pharmaceuticals and Medical Devices Agency Japan](https://www.pmda.go.jp/english/pnavi_e-05.html) - Japan's agency for pharmaceuticals and medical devices safety and effectiveness.
-1. [European Medicines Agency](https://www.ema.europa.eu/en/homepage) - EU agency for medicine safety and effectiveness.
-1. [PubChem](https://pubchem.ncbi.nlm.nih.gov/) - A database with information on the biological activities of small molecules.
-1. [SIDER](http://sideeffects.embl.de/) - A resource that contains information on marketed medicines and their recorded adverse drug reactions.
-1. [STITCH](http://stitch.embl.de/) - A database of known and predicted interactions between chemicals and proteins.
-1. [Reactome](https://reactome.org/) - A free, open-source, curated and peer-reviewed pathway database.
-1. [ChEMBL](https://www.ebi.ac.uk/chembl/) - A manually curated database of bioactive molecules with drug-like properties.
-1. [Human Metabolome Database](https://hmdb.ca/) - A freely available electronic database containing detailed information about small molecule metabolites found in the human body.
-1. [ZINC](https://zinc.docking.org/) - A free database of commercially-available compounds for virtual screening.
+1.  [Human Mortality Database](https://www.mortality.org/)
+2.  [OpenNeuro](https://openneuro.org/) - Neuroimaging data.
+3. IBL Neuropixels Reproducible Ephys Data on AWS](https://registry.opendata.aws/ibl-reproducible-ephys/).
+4.  [Human Cell Atlas](https://www.humancellatlas.org/)
+5. [Refgenie reference genome assets](https://registry.opendata.aws/refgenie/).
+6. [Open Bioinformatics Reference Data for Galaxy](https://registry.opendata.aws/open-bio-ref-data/).
+7. [OpenCell on AWS](https://registry.opendata.aws/czb-opencell/).
 
 ## License
 
