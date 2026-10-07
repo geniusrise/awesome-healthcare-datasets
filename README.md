@@ -85,6 +85,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 ### Prescription Data
 1.  [OpenPrescribing](https://openprescribing.net/) - Prescribing data from GPs in England.
 2. [FDA Adverse Event Reporting System](https://www.fda.gov/drugs/surveillance/questions-and-answers-fdas-adverse-event-reporting-system-faers). Captures adverse drug reactions.
+3. [Magistra GLP-1 Safety & Efficacy Database](https://magistra.health/en/data) - Real-world side-effect evidence for GLP-1 weight-loss drugs (semaglutide, tirzepatide), aggregated daily from PubMed, FDA FAERS, ClinicalTrials.gov, and community reports; publishes pooled clinical rates and community reporting frequencies with the sample size and distinct-source count behind every estimate. Free no-auth [JSON API](https://magistra.health/api/data?q=overview); free for research/journalism with attribution, no redistribution.
 
 ## Imaging Data
 
@@ -271,6 +272,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 5.  [OECD Health Statistics](https://www.oecd.org/els/health-systems/health-data.htm)
 6.  [Humanitarian Data Exchange](https://data.humdata.org/)
 7.   [Institute for Health Metrics and Evaluation](http://www.healthdata.org/) - provides access to many more datasets related to global health.
+8.  [ENCLAI Reported Infectious-Disease Case Counts 2018–2024](https://doi.org/10.5281/zenodo.21855170) - officially reported case counts for 18 diseases in 108 countries, with confirmed and suspected counts in separate columns and the originating authority on every row; deposited at Zenodo (CC BY-NC-SA 4.0).
 
 ### US-Specific Public Health
 
@@ -298,6 +300,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 11. [California IHSS Individual Provider County Wage Rates 2026](https://github.com/asafichaki/california-senior-care-rates-open-data) - Hourly IHSS in-home caregiver wage set by each of California's 58 counties under the Medi-Cal In-Home Supportive Services program, from CDSS. Government program wages, not private-pay prices. CSV and JSON, CC BY 4.0, reproducible fetch script.
 12. [Loa U.S. Healthcare Price Transparency Dataset](https://www.loacare.com/methodology) - Searchable, source-labeled U.S. hospital prices and CMS provider records covering 207,453 provider profiles, 4,702 hospital profiles, and 116,655 current hospital price rows. Includes a downloadable [964-row aggregate procedure-city benchmark CSV](https://www.loacare.com/datasets/loa-us-healthcare-price-benchmarks.csv) and public no-auth [JSON API](https://www.loacare.com/api/v1/openapi.json); use is governed by Loa's terms and no open-data redistribution license is advertised.
 13. [Quebec Emergency Room Weekly Occupancy](https://sante.handled.tools/en/hebdo) - Quebec's health ministry only publishes the current hour of ER data, so this keeps every hour since August 10 2026 and averages it by week for all 120 emergency departments (occupancy, people waiting, length of stay). CSV download, CC BY 4.0.
+14. [Wayfinder Atlas](https://www.thewayfinder.health/atlas) - Legal status of psilocybin, MDMA, ketamine/esketamine and ayahuasca therapy in 60 jurisdictions (194 jurisdiction-substance rows), each with primary-source links and a last-verified date. Re-verified monthly with a public changelog. CSV and JSON, CC BY 4.0 (DOI 10.5281/zenodo.21269664).
 
 ## Biomedical Literature
 
@@ -332,6 +335,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 3.    [County Health Rankings & Roadmaps](https://www.countyhealthrankings.org/) - Provides rankings and data on various health factors and outcomes at the county level.
 4.    [USDA Food Environment Atlas](https://www.ers.usda.gov/data-products/food-environment-atlas/) - Data on food access, food prices, and local food systems.
 5.   [Robert Wood Johnson Foundation (RWJF) Data Hub](https://www.rwjf.org/en/data-hub.html) - Curated datasets related to health equity and social determinants.
+6.   [Lifemap](https://lifemap.org.uk) - Life expectancy and healthy life expectancy for UK local authorities from the Office for National Statistics, alongside smoking, obesity and physical activity figures and, for England, deprivation scores. Free CSV/JSON downloads.
 
 ## Synthetic Data
 1. [Synpuf](https://www.cms.gov/research-statistics-data-and-systems/downloadable-public-use-files/synpufs) - Medicare synthetic data.
