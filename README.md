@@ -272,6 +272,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 5.  [OECD Health Statistics](https://www.oecd.org/els/health-systems/health-data.htm)
 6.  [Humanitarian Data Exchange](https://data.humdata.org/)
 7.   [Institute for Health Metrics and Evaluation](http://www.healthdata.org/) - provides access to many more datasets related to global health.
+8.  [ENCLAI Reported Infectious-Disease Case Counts 2018–2024](https://doi.org/10.5281/zenodo.21855170) - officially reported case counts for 18 diseases in 108 countries, with confirmed and suspected counts in separate columns and the originating authority on every row; deposited at Zenodo (CC BY-NC-SA 4.0).
 
 ### US-Specific Public Health
 
