@@ -305,6 +305,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 13. [Quebec Emergency Room Weekly Occupancy](https://sante.handled.tools/en/hebdo) - Quebec's health ministry only publishes the current hour of ER data, so this keeps every hour since August 10 2026 and averages it by week for all 120 emergency departments (occupancy, people waiting, length of stay). CSV download, CC BY 4.0.
 14. [Wayfinder Atlas](https://www.thewayfinder.health/atlas) - Legal status of psilocybin, MDMA, ketamine/esketamine and ayahuasca therapy in 60 jurisdictions (194 jurisdiction-substance rows), each with primary-source links and a last-verified date. Re-verified monthly with a public changelog. CSV and JSON, CC BY 4.0 (DOI 10.5281/zenodo.21269664).
 15. [US Online Therapy Session Prices (OnlineTherapy.me)](https://doi.org/10.5281/zenodo.23772949) - Self-pay price of one session at the 22 US online therapy services that publish one, each row citing the page it was read from and the date checked; re-checked monthly. CSV, CC BY 4.0.
+16. [US Healthcare Job Postings and Posted Pay (CareJobs.Now)](https://doi.org/10.5281/zenodo.23395728) - Open US healthcare jobs and the hourly pay employers post, by kind of job and state, read from about 270 hospitals' and health systems' own career sites (CSV, CC BY 4.0, updated daily at [carejobs.now/research](https://carejobs.now/research)).
 
 ## Biomedical Literature
 
