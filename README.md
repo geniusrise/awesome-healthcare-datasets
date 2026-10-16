@@ -237,6 +237,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 9.  [STITCH](http://stitch.embl.de/) - Chemical-protein interactions.
 10. [ZINC](https://zinc.docking.org/) - Compounds for virtual screening.
 11. [State of Peptides 2026](https://peptahub.com/state-of-peptides-2026) - Reference dataset of 156 peptide and peptide-adjacent compounds with regulatory status, category, route, half-life, molecular weight, CAS number, and PubChem/DrugBank/Wikidata cross-references (CSV/JSON, CC BY 4.0).
+12. [vialaudit peptide lab-result datasets](https://vialaudit.com/data) - Index of 1,828 Kovera Labs certificates (client, product, lot, purity, content as % of label) and 2,087 pooled public peptide lab results by compound, plus FDA warning letters citing retatrutide and Janoshik public GLP-1 reports (CSV, CC BY 4.0).
 
 ### Disease and Gene Information
 
