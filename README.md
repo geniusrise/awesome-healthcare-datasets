@@ -333,6 +333,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 1.   [American Community Survey (ACS)](https://www.census.gov/programs-surveys/acs) - Provides detailed demographic, socioeconomic, and housing data at various geographic levels.
 2.   [Area Health Resources Files (AHRF)](https://data.hrsa.gov/topics/health-workforce/ahrf) - County-level data on healthcare resources, demographics, and social determinants.
 3.    [County Health Rankings & Roadmaps](https://www.countyhealthrankings.org/) - Provides rankings and data on various health factors and outcomes at the county level.
+- [NutriGraphAPI](https://nutrigraphapi.com/) - Comprehensive food intelligence and nutrition breakdown API for dietary analysis and food environment research.
 4.    [USDA Food Environment Atlas](https://www.ers.usda.gov/data-products/food-environment-atlas/) - Data on food access, food prices, and local food systems.
 5.   [Robert Wood Johnson Foundation (RWJF) Data Hub](https://www.rwjf.org/en/data-hub.html) - Curated datasets related to health equity and social determinants.
 6.   [Lifemap](https://lifemap.org.uk) - Life expectancy and healthy life expectancy for UK local authorities from the Office for National Statistics, alongside smoking, obesity and physical activity figures and, for England, deprivation scores. Free CSV/JSON downloads.
