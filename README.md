@@ -86,6 +86,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 1.  [OpenPrescribing](https://openprescribing.net/) - Prescribing data from GPs in England.
 2. [FDA Adverse Event Reporting System](https://www.fda.gov/drugs/surveillance/questions-and-answers-fdas-adverse-event-reporting-system-faers). Captures adverse drug reactions.
 3. [Magistra GLP-1 Safety & Efficacy Database](https://magistra.health/en/data) - Real-world side-effect evidence for GLP-1 weight-loss drugs (semaglutide, tirzepatide), aggregated daily from PubMed, FDA FAERS, ClinicalTrials.gov, and community reports; publishes pooled clinical rates and community reporting frequencies with the sample size and distinct-source count behind every estimate. Free no-auth [JSON API](https://magistra.health/api/data?q=overview); free for research/journalism with attribution, no redistribution.
+- [Level Outpatient Healthcare Revenue Cycle & Practice Benchmarks](https://github.com/levelcfo/smb-financial-benchmarks) - Open CSV/JSON benchmarks covering outpatient Days in Net A/R, POS copay collection rates, claim denial rates, physician FTE productivity, and ERA 835 reconciliation ([Interactive Guide](https://levelcfo.com/benchmarks/healthcare/)).
 
 ## Imaging Data
 
