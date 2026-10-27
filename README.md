@@ -223,6 +223,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 7.  [CPT (Current Procedural Terminology)](https://www.ama-assn.org/amaone/cpt-current-procedural-terminology) - *Requires a license.*
 8.  [Medical Dictionary for Regulatory Activities Terminology](https://www.meddra.org/) *Requires a license.*
 9.  [International Classification of Diseases for Oncology](https://www.who.int/standards/classifications/other-classifications/international-classification-of-diseases-for-oncology)
+10. [OMOPHub](https://omophub.com/) - Hosted API for the OHDSI OMOP standardized vocabularies (SNOMED CT, ICD-10, LOINC, RxNorm and 120+ more), with mappings and hierarchies. *Free tier available.*
 
 ### Drug and Chemical Information
 
