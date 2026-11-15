@@ -353,6 +353,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 6. [Refgenie reference genome assets](https://registry.opendata.aws/refgenie/).
 7. [Open Bioinformatics Reference Data for Galaxy](https://registry.opendata.aws/open-bio-ref-data/).
 8. [OpenCell on AWS](https://registry.opendata.aws/czb-opencell/).
+9.  [Powerlifting Percentiles](https://github.com/AwesomeZaidi/powerlifting-percentiles) - Squat, bench, deadlift and total percentiles for 182,030 raw powerlifters (2023-2025) by sex, weight class and bodyweight, derived from OpenPowerlifting. CC0, CSV and JSON.
 
 ## License
 
