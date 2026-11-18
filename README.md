@@ -318,6 +318,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 1. [BioASQ](http://bioasq.org/) - Biomedical semantic indexing and question answering challenges.
 2.  [ChemProt](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-vi/track-5/) - Chemical-protein interactions extracted from literature.
 3.  [DDI (Drug-Drug Interaction) Extraction](https://labh-curran.ucd.ie/datasets/index.php) - Drug-drug interaction extraction from biomedical texts.
+4.  [POTS Open Data](https://github.com/abrarhussain-00/pots-open-data) - Cited figures and treatment evidence grades for postural orthostatic tachycardia syndrome (POTS), each traced to its study and sample size, plus a directory of 30 patient and clinician organisations across 10 regions. CSV and JSON, CC BY 4.0.
 
 ## Wearable and Sensor Data
 
