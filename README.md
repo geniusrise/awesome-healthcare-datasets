@@ -361,6 +361,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 7. [Open Bioinformatics Reference Data for Galaxy](https://registry.opendata.aws/open-bio-ref-data/).
 8. [OpenCell on AWS](https://registry.opendata.aws/czb-opencell/).
 9.  [Powerlifting Percentiles](https://github.com/AwesomeZaidi/powerlifting-percentiles) - Squat, bench, deadlift and total percentiles for 182,030 raw powerlifters (2023-2025) by sex, weight class and bodyweight, derived from OpenPowerlifting. CC0, CSV and JSON.
+10. [CRLN Human vs AI Clinical Research Benchmark](https://huggingface.co/datasets/CRLN/crln-human-vs-ai-clinical-research-benchmark) - Aggregate results comparing learners and frontier AI models on the same clinical trial site decisions (Good Clinical Practice, ICH E6(R3)), scored on a four-level rubric. Aggregates only, no learner-level data. CC BY 4.0, DOI 10.5281/zenodo.24174733.
 
 ## License
 
