@@ -288,6 +288,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 8. [Youth Risk Behavior Surveillance System (YRBSS)](https://www.cdc.gov/healthyyouth/data/yrbs/index.htm) - Monitors health-risk behaviors among youth.
 9. [Verified Supplement Evidence Dataset](https://github.com/erinheit451/verified-supplement-evidence) - Evidence-graded dietary-supplement data: dosing, bioavailability by form, drug-nutrient interactions, NHANES deficiency prevalence, FDA FAERS adverse-event signals, and cost-per-effective-dose. Every clinical claim carries a PubMed PMID. CC BY 4.0 (DOI 10.57967/hf/9356).
 10. [Fiber Database](https://github.com/acalise/fiber-database) - Dietary fiber for ~200 common foods per typical serving and per 100 g, with total fiber split into soluble and insoluble, derived from USDA FoodData Central. CSV and JSON plus a no-auth JSON API, CC BY 4.0.
+11. [NHANES Lab Percentiles](https://github.com/caraulani/nhanes-lab-percentiles) - Survey-weighted percentiles for 479 blood and urine lab analytes from NHANES 2011-2023, by sex and age band, with design-based 95% confidence limits. CSV, CC BY 4.0 (DOI 10.5281/zenodo.24543296).
 
 ### Health Systems and Policy
 1.  [All of Us Research Program](https://www.researchallofus.org/)
@@ -349,6 +350,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 2.  [Synthea](https://synthetichealth.github.io/synthea/) - A synthetic patient generator that models the medical history of US patients.
 3. [MedGAN](https://github.com/usc-Melady/MedGAN) - Generating Multi-label Discrete Patient Records using Generative Adversarial Networks.
 4. [CorGAN](https://arxiv.org/abs/1903.02629) - Correlation-Capturing Convolutional Generative Adversarial Networks for Generating Synthetic Healthcare Time-Series Data.
+5. [Lab Report Corpus](https://huggingface.co/datasets/lifefrom/lab-report-corpus) - 4,000 synthetic lab reports from six countries, each as PDF, scan and phone photo, with a computed answer key for every printed result. For testing OCR and LLM extraction of lab values. No patient data, CC BY 4.0.
 
 ## Miscellaneous
 
