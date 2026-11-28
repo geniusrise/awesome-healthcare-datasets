@@ -73,6 +73,7 @@ A curated list of awesome healthcare datasets for machine learning, research, an
 2.  [i2b2/n2c2 NLP Research Data Sets](https://www.i2b2.org/NLP/DataSets/) - Several datasets of deidentified clinical notes with annotations for various NLP tasks (e.g., de-identification, relation extraction). *Requires data use agreement.*
 3. [mtsamples](https://www.mtsamples.com/) - A large collection of transcribed medical sample reports.
 4.  [THYME corpus](https://github.com/thராஜ்/temporal_hindi) - clinical notes with temporal annotations. Contains colon cancer, brain tumor and epilepsy corpus.
+5.  [Itaca clinical questions to AI (Spanish, 2026)](https://doi.org/10.5281/zenodo.24576371) - Open aggregate dataset (CC BY 4.0) from a random sample of 5,000 real clinical questions that health professionals asked an AI in Spanish: question types, MeSH topics, specialty and cited sources. Aggregates only, no patient data.
 
 ### Waveform Data
 
